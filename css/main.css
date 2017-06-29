@@ -1,15 +1,29 @@
+body {
+  padding: 0px;
+  /*background-color: black;*/
+}
+header {
+  width: 1280px;
+  height: 1000px;
+  display: block;
+  margin: auto;
+  background-image: url("../img/iphone-background.jpg");
+  background-size: 1280px;
+  background-repeat: no-repeat;
+}
 ul{
     margin: 0;
     padding: 0;
     list-style: none
   }
-nav ul {
+.nav-ul {
   display: flex;
   justify-content: space-around;
   background-color: black;
+  font-family: sans-serif;
 }
 
-nav ul li {
+.nav-item {
   color: white;
-  padding: 10px;
+  padding: 13px;
 }
